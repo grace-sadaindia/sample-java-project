@@ -37,3 +37,36 @@ kubectl get services
 curl 34.127.13.176
 cd ~
 git init -b main
+git add .
+git commit -m "first commit"
+git config --global user.email "grace.mathew@sada.com"
+git config --global user.name "grace-sadaindia"
+git commit -m "first commit"
+git status
+git logs
+git log
+ls
+git push origin main
+git push scaling-spork main
+git remote add origin https://github.com/grace-sadaindia/scaling-spork.git
+git push origin main
+git remote -v
+git remote set-url origin git@github.com:USERNAME/REPONAME.git
+git remote set-url origin @github.com:grace-sadaindia/scaling-spork.git
+git push origin main
+git remote -v
+git push origin main
+git remote -v
+git remote set-url origin @github.com:grace-sadaindia/scaling-spork
+git remote -v
+git push origin main
+git remote set-url origin https://github.com/grace-sadaindia/scaling-spork.git
+git remote -v
+git push origin main
+git pull
+git push origin main
+git pull origin main
+git pull origin master
+git push origin main
+git checkout branch1
+git init
